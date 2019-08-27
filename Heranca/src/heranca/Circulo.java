@@ -11,7 +11,15 @@ package heranca;
  */
 public class Circulo extends Figura{
     
-    protected double raio;
+    private double raio;
+
+    public double getRaio() {
+        return raio;
+    }
+
+    public void setRaio(double raio) {
+        this.raio = raio;
+    }
     
     Circulo(){
     }
@@ -21,8 +29,8 @@ public class Circulo extends Figura{
     }
     
     Circulo(int x, int y, double raio){
-        this.x = x;
-        this.y = y;
+        this.setX(x);
+        this.setY(y);
         this.raio = raio;
     }
 

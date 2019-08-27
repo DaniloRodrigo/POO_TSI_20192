@@ -10,8 +10,24 @@ package heranca;
  * @author 3086926
  */
 public class Retangulo extends Figura{
-    protected double comprimento;
-    protected double altura;
+    private double comprimento;
+    private double altura;
+
+    public double getComprimento() {
+        return comprimento;
+    }
+
+    public void setComprimento(double comprimento) {
+        this.comprimento = comprimento;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
 
     Retangulo() {
     }
@@ -22,8 +38,8 @@ public class Retangulo extends Figura{
     }
     
     Retangulo(int x, int y, double altura, double comprimento){
-        this.x = x;
-        this.y = y;       
+        this.setX(x);
+        this.setY(y);      
         this.altura = altura;
         this.comprimento = comprimento;
     }

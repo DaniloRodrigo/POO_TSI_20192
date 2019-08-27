@@ -3,9 +3,9 @@
 package aula1;
 
 public class Funcionario {
-    private String nome;
-    private String cpf;
-    private int idade;
+    public String nome;
+    public String cpf;
+    public int idade;
     private double salario;
   
     Funcionario(String nome, String cpf, int idade, double salario) {
@@ -35,7 +35,7 @@ public class Funcionario {
     }
 
     public String getCpf() {
-        return cpf;
+        return cpf.substring(8, 11);
     }
 
     public void setCpf(String cpf) {

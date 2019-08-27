@@ -10,8 +10,24 @@ package heranca;
  * @author 3086926
  */
 public abstract class Figura {
-    protected int x;
-    protected int y;
+    private int x;
+    private int y;
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
     
     Figura(){}
     

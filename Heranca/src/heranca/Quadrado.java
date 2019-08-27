@@ -10,21 +10,29 @@ package heranca;
  * @author 3086926
  */
 public class Quadrado extends Retangulo{
-    protected double lado;
+    private double lado;
+
+    public double getLado() {
+        return lado;
+    }
+
+    public void setLado(double lado) {
+        this.lado = lado;
+    }
     Quadrado() {
     }
     
     Quadrado(double lado){
         this.lado = lado;
-        this.altura = lado;
-        this.comprimento = lado;
+        this.setAltura(lado);
+        this.setComprimento(lado);
     }
     
     Quadrado(int x, int y, double lado){
-        this.x = x;
-        this.y = y;       
+        this.setX(x);
+        this.setY(y);      
         this.lado = lado;
-        this.altura = lado;
-        this.comprimento = lado;
+        this.setAltura(lado);
+        this.setComprimento(lado);
     }
 }
