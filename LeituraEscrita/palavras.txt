@@ -1,0 +1,6 @@
+Outros recursos que têm características especiais
+Também pode ordenar as palavras de outras maneiras
+Na realidade estamos a utilizar a pesquisa geral de Palavrasque
+só que aqui é mais fácil para começar
+Assim que envie a consulta
+verá perfeitamente como utilizar o resto de opções com o botão de pesquisa
