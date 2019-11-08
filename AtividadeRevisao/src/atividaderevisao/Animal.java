@@ -29,6 +29,11 @@ public class Animal {
         this.peso = peso;
     }
     
+    public int setPeso(double peso) {
+        this.peso = peso;
+        return 0;
+    }
+    
     @Override
     public String toString() {
         return this.getNome() + " " + this.getPeso();
